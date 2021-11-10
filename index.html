@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+		
+    <link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 
     <!-- Update these with your own fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
@@ -31,9 +34,25 @@
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Work Experience</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item">
+
+                            <ul class="social-list__nav">
+                                <li class="social-list__item"><a class="social-list__link"
+                                        href="https://www.linkedin.com/in/sudhanshu-kumar-0867471a0/"><i
+                                            class="fab fa-linkedin"></i></a></li>
+                                <li class="social-list__item"><a class="social-list__link"
+                                        href="https://github.com/soulreaper002"><i class="fab fa-github"></i></a></li>
+                                <li class="social-list__item"><a class="social-list__link"
+                                        href="https://www.instagram.com/_sudhanshusuraj_/"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li class="social-list__item"><a class="social-list__link"
+                                        href="https://stackoverflow.com/users/13251389/user13251389"><i
+                                            class="fab fa-stack-overflow"></i></a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -100,11 +119,13 @@
 
                 “Prior to this role, I completed my bachelors with CSE from IIIT Kalyani,
                 where I become interested in how modern technology works and how we can
-                make everyon's life better using web development. And that brought me to IT industry.
+                make everyone's life better using web development. And that brought me to IT industry.
             </p>
         </div>
+        <div class="section__subtitle--about holder" id='holder'>
+            <h3>Skills</h3>
+        </div>
 
-        <img src="img/aboutme-removebg-preview.png" alt="Sudhanshu smiling" class="about-me__img">
     </section>
 
     <!-- My Work -->
@@ -118,64 +139,67 @@
                 <div class="box">
                     <div class="content">
                         <h3>Event Booking</h3>
-                        <p>Something i will write here</p>
-                        <li class="social-list__item"><a href="#"><i class="fab fa-github"></i></a></li>
+                        <p style="font-size: 15px;">Using Java, spring framework developed a website to create and book tickets for events.</p>
+                        <li class="social-list__item"><a href="https://github.com/soulreaper002/CodeXcalibur"><i class="fab fa-github"></i></a></li>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="box">
                     <div class="content">
-                        <h3>Event Booking</h3>
-                        <p>Something i will write here</p>
-                        <li class="social-list__item"><a href="#"><i class="fab fa-github"></i></a></li>
+                        <h3>HosPos</h3>
+                        <p style="font-size: 13px;">A basic website created using Java,JSP and MySQL to have records of
+                            patients and doctors for
+                            easy consulation and appointments.
+                        </p>
+                        <li class="social-list__item"><a href="https://github.com/soulreaper002/HosPOS"><i class="fab fa-github"></i></a></li>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="box">
                     <div class="content">
-                        <h3>Event Booking</h3>
-                        <p>Something i will write here</p>
-                        <li class="social-list__item"><a href="#"><i class="fab fa-github"></i></a></li>
+                        <h3>Matrix Ressurection</h3>
+                        <p>Small website to get matrix movie effect.<br>
+                            
+                            <strong>Try it now</strong>
+                        </p>
+                        <li class="social-list__item"><a href="https://soulreaper002.github.io/matrix--ressurection/"><i class="fab fa-github"></i></a></li>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="box">
                     <div class="content">
-                        <h3>Event Booking</h3>
-                        <p>Something i will write here</p>
-                        <li class="social-list__item"><a href="#"><i class="fab fa-github"></i></a></li>
+                        <h3>Particle Login</h3>
+                        <p>Using Particle.js created a small login page.
+                            <br> <strong> Try it now</strong>
+                        </p>
+                        <li class="social-list__item"><a href="https://soulreaper002.github.io/portfolio-particle/"><i class="fab fa-github"></i></a></li>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="box">
-                    <div class="content">
-                        <h3>Event Booking</h3>
-                        <p>Something i will write here</p>
-                        <li class="social-list__item"><a href="#"><i class="fab fa-github"></i></a></li>
-                    </div>
-                </div>
-            </div>
-            
     </section>
 
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- replace with your own email address -->
+       
         <a href="mailto:sudhanshukumar.dakshana15@gmail.com"
             class="footer__link">sudhanshukumar.dakshana15@gmail.com</a>
+          <br> <i class="fa fa-mobile" aria-hidden="true"></i> <span style="font-size: small;">+91 8100889366</span>
+         
+          
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://linked.com"><i
-                        class="fab fa-linkedin"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com"><i
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/sudhanshu-kumar-0867471a0/"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/soulreaper002"><i
                         class="fab fa-github"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://instagram.com"><i
-                        class="fab fa-instagram"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="http://stackoverflow.com"><i
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.instagram.com/_sudhanshusuraj_/"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://stackoverflow.com/users/13251389/user13251389"><i
                         class="fab fa-stack-overflow"></i></a></li>
         </ul>
     </footer>
@@ -190,6 +214,80 @@
         });
 
     </script>
+	
+
+
+	<!--Word Cloud 3D-->
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='js/jquery.svg3dtagcloud.min.js'></script>
+	<script>
+
+    	$( document ).ready( function() {
+
+            var index = 0, entries = [
+                [     
+                    { label: 'JAVA', fontSize: 34 },
+                    { label: 'Spring Framework',fontSize:26 },
+                    { label: 'Pl/SQL' },
+                    { label: 'MySql'},
+                    { label: 'HTML5'},
+                    { label: 'CSS' },
+                    { label: 'Javascript' },
+                    { label: 'Git' },
+                    { label: 'Junit'},
+                    { label: 'Hibernate' },
+                    { label: 'Python' ,fontSize:15 },
+                    {label: 'ORMS'}
+
+                ]
+
+            ];
+
+            var settings = {
+
+                entries: entries[index],
+                
+                radius: '65%',
+                radiusMin: 65,
+                bgDraw: true,
+                bgColor: '#16e0bd',
+                opacityOver: 1.00,
+                opacityOut: 0.05,
+                opacitySpeed: 6,
+                fov: 800,
+                speed: 1,
+                fontFamily: 'Oswald, Arial, sans-serif',
+                fontSize: '15',
+                fontColor: '#111',
+                fontWeight: 'normal',//bold
+                fontStyle: 'normal',//italic 
+                fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                fontToUpperCase: true,
+                tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                tooltipFontSize: '11',
+                tooltipFontColor: '#fff',
+                tooltipFontWeight: 'normal',//bold
+                tooltipFontStyle: 'normal',//italic 
+                tooltipFontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                tooltipFontToUpperCase: false,
+                tooltipTextAnchor: 'left',
+                tooltipDiffX: 0,
+                tooltipDiffY: 10
+
+            };
+
+            //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+            $( '#holder' ).svg3DTagCloud( settings );
+
+            var svg3DTagCloud = $( '#holder' ).data('plugin_SVG3DTagCloud');
+
+           
+
+		} );
+        
+    </script>
+
+	
 </body>
 
 </html>
