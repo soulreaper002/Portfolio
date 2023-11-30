@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #16e088;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -292,7 +292,7 @@ header{
         grid-area: img;
         min-width: 250px;
         position: relative;
-        z-index: 2;
+        z-index: 3;
     }    
     
     .section__subtitle--intro {
